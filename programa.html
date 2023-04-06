@@ -12,17 +12,20 @@
     <script>
         /*var dia = new Date(); */
         /*var año = dia.getFullYear(); año automatico */
+        function saltarLinea() {
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+        }
         var año = 2025;
-        var saltoLinea= "<br><br><br>"
-
         document.write("Juan tiene: "+(año-2000)+ " años");
-        document.write(saltoLinea);
+        saltarLinea();
     
         document.write("Pedro tiene: "+(año-1995)+ " años");
 
         año =2030;
 
-        document.write(saltoLinea);
+        saltarLinea();
         
         document.write("Carlos tiene: "+(año-2005)+ " años");
         

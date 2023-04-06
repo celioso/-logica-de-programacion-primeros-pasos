@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Fechas</title>
+</head>
+<body>
+    <h1>PROGRAMA</h1>
+
+    <script>
+        /*var dia = new Date(); */
+        /*var año = dia.getFullYear(); año automatico */
+        function saltarLinea() {
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+        }
+        function imprimir(frase){
+            document.write(frase);
+            saltarLinea();
+        }
+        var dia = new Date(); 
+        var año = dia.getFullYear();
+        var miaño =2001;
+        var amiaño = 2010;
+        var diferenciaedades = ((año-miaño)-(año-amiaño));
+        imprimir("hola amigos");
+        
+        //Este código calcula las edades de Juan, Pedro y Carlos
+
+        imprimir("Yo tengo: "+(año-miaño)+ " años, y mi amigo tiene "+(año-amiaño)+" años, y la diferencia de edades es: "+diferenciaedades+" años");
+        
+    </script>
+    <!-- hola -->
+</body>
+</html>

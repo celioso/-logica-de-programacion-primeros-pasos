@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PROGRAMA CALCULAR IMC</title>
 </head>
 <body>
+<h1>PROGRAMA CALCULAR IMC</h1>
+<script>
+    function saltarLinea() {
+
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+    }
+    function imprimir(frase){
+
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function calcularImc(peso, altura, nombre) {
+        imc = peso/(altura*altura);
+        imprimir("El IMC calculado de "+nombre+" es: "+imc);
+    }
+
+    calcularImc(71, 1.72, "Christian");
+    calcularImc(75, 1.73, "Felipe");
     
+</script>
 </body>
 </html>

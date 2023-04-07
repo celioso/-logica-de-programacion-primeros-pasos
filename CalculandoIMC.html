@@ -26,12 +26,13 @@
         
     }
 
-    pesoInformado = 71;
-    alturaInformada = 1.72;
+    nombre = prompt("ingrese su nombre: ")
+    pesoInformado = prompt(nombre+", ingrese su peso: ")
+    alturaInformada = prompt(nombre+", ingrese su Altura: ")
 
     imcCalculado = calcularImc(pesoInformado, alturaInformada);
 
-    imprimir("El  IMC calculado es: "+imcCalculado);
+    imprimir(nombre+", su IMC calculado es: "+imcCalculado);
 
 </script>
 </body>
